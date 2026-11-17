@@ -1,6 +1,7 @@
 // app.dart
 
 import 'package:flutter/material.dart';
+import './screens/home_screen.dart';
 
 class VanishApp extends StatelessWidget {
   const VanishApp({super.key});
@@ -19,7 +20,7 @@ class VanishApp extends StatelessWidget {
           brightness: Brightness.light,
         ),
       ),
-      home: const Scaffold(body: Center(child: Text('vanish'))),
+      home: const HomeScreen(),
     );
   }
 }
